@@ -1,4 +1,4 @@
-#Capstone Project
+# Capstone Project
 해당 프로젝트는 **React + TailwindCSS**를 사용하여 개발되었습니다.
 아래 설명을 따라 설치하고 실행할 수 있습니다.
 
