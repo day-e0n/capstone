@@ -1,3 +1,52 @@
+#Çapstone Project
+해당 프로젝트는 **React + TailwindCSS**를 사용하여 개발되었습니다.
+아래 설명을 따라 설치하고 실행할 수 있습니다.
+
+---
+## 1. 프로젝트 다운로드
+'''sh
+git clone https://github.com/day-e0n/capstone.git
+cd capstone
+'''
+
+## 2. Node.js 및 npm 설치
+'''sh
+node -v
+npm -v
+'''
+이 명령어를 실행 했을 때 버전이 출력되면 이미 설치된 것이므로 다음 단계로 이동하세요.
+
+## 3. 의존성 패키지 설치
+'''sh
+npm install
+or
+yarn install
+'''
+
+## 4. TailwindCSS 설정 (최초 1회 실행)
+'''sh
+npx tailwindcss init -p
+'''
+tailwind.config.js 파일이 생성됩니다.
+
+생성된 tailwind.configs.js 파일을 수정하세요.
+'''sh
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+'''
+
+## 5. 프로젝트 실행
+'''sh
+npm start
+or
+yarn start
+'''
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
