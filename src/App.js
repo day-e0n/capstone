@@ -32,8 +32,8 @@ function AppContent() {
         <Route path="/login" element={<Login />} />
         <Route path="/resetpassword" element={<ResetPassword />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/signupcustomer" element={<Signupcustomer />} />
-        <Route path="/signupflorist" element={<Signupflorist />} />
+        <Route path="/signupcustomer" element={<SignupCustomer />} />
+        <Route path="/signupflorist" element={<SignupFlorist />} />
         <Route path="/dictionary" element={<FlowerDictionary/>} />
       </Routes>
 
