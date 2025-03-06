@@ -11,8 +11,8 @@ import Order from "./pages/Order";
 import Map from "./components/Map";
 import ResetPassword from "./pages/ResetPassword";
 import Signup from "./pages/Signup";
-import Signup_customer from "./pages/Signup_customer";
-import Signup_florist from "./pages/Signup_florist";
+import Signupcustomer from "./pages/SignupCustomer";
+import Signupflorist from "./pages/SignupFlorist";
 import FlowerDictionary from "./pages/FlowerDictionary";
 
 function AppContent() {
@@ -32,8 +32,8 @@ function AppContent() {
         <Route path="/login" element={<Login />} />
         <Route path="/resetpassword" element={<ResetPassword />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/signup_customer" element={<Signup_customer />} />
-        <Route path="/signup_florist" element={<Signup_florist />} />
+        <Route path="/signupcustomer" element={<Signupcustomer />} />
+        <Route path="/signupflorist" element={<Signupflorist />} />
         <Route path="/dictionary" element={<FlowerDictionary/>} />
       </Routes>
 
