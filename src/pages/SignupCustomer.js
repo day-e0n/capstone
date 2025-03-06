@@ -1,6 +1,6 @@
 import React from "react";
 
-const Signup_customer = () => {
+const SignupCustomer = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 px-4">
       {/* 제목 */}
@@ -35,4 +35,4 @@ const Signup_customer = () => {
   );
 };
 
-export default Signup_customer;
+export default SignupCustomer;

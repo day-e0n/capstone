@@ -11,8 +11,8 @@ import Order from "./pages/Order";
 import Map from "./components/Map";
 import ResetPassword from "./pages/ResetPassword";
 import Signup from "./pages/Signup";
-import Signupcustomer from "./pages/SignupCustomer";
-import Signupflorist from "./pages/SignupFlorist";
+import SignupCustomer from "./pages/SignupCustomer";
+import SignupFlorist from "./pages/SignupFlorist";
 import FlowerDictionary from "./pages/FlowerDictionary";
 
 function AppContent() {

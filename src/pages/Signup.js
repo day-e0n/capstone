@@ -45,7 +45,7 @@ const Signup = () => {
         {/* 꽃집 운영진으로 가입 버튼 */}
         <div
           className="w-64 h-80 bg-white bg-opacity-80 flex flex-col items-center justify-center rounded-xl shadow-lg cursor-pointer hover:scale-105 transition transform duration-300"
-          onClick={() => navigate("/signup_florist")}
+          onClick={() => navigate("/SignupFlorist")}
         >
           <p className="text-lg font-semibold text-gray-800 mb-2">
             🌿 꽃집 운영진으로 가입
@@ -56,7 +56,7 @@ const Signup = () => {
         {/* 꽃집 고객으로 가입 버튼 */}
         <div
           className="w-64 h-80 bg-white bg-opacity-80 flex flex-col items-center justify-center rounded-xl shadow-lg cursor-pointer hover:scale-105 transition transform duration-300"
-          onClick={() => navigate("/signup_customer")}
+          onClick={() => navigate("/SignupCustomer")}
         >
           <p className="text-lg font-semibold text-gray-800 mb-2">
             💐 꽃집 고객으로 가입

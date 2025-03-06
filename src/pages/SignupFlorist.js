@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Signup_florist = () => {
+const SignupFlorist = () => {
   const [file, setFile] = useState(null);
   const [preview, setPreview] = useState(null);
 
@@ -67,4 +67,4 @@ const Signup_florist = () => {
   );
 };
 
-export default Signup_florist;
+export default SignupFlorist;
