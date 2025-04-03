@@ -4,8 +4,15 @@ module.exports = {
     './src/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'people':["PeoplefirstILTTF"],
+        'snowy':["SFSnowy"],
+        'spring':["HSBombaram"],
+        'baemin':["baemin"],
+        'title':["title"],
+      },
+    },
   },
   plugins: [],
 }
-

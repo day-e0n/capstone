@@ -12,6 +12,42 @@ code {
     monospace;
 }
 
+@font-face {
+  font-family: 'PeoplefirstILTTF';
+  src: url('/src/fonts/PeoplefirstILTTF.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFSnowy';
+  src: url('/src/fonts/SF함박눈TTF.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HSBombaram';
+  src: url('/src/fonts/HSBombaram.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'baemin';
+  src: url('/src/fonts/BMKIRANGHAERANG-TTF.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'title';
+  src: url('/src/fonts/BMEULJIROTTF.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

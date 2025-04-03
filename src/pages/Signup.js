@@ -34,7 +34,7 @@ const Signup = () => {
       {dateNumber >= 916 && dateNumber <= 1114 ? <AutumnLeaves /> : null}
       {dateNumber >= 1115 || dateNumber <= 227 ? <Snowfall /> : null}
 
-      <h1 className="text-4xl font-bold text-gray-900 mb-6 drop-shadow-lg">
+      <h1 className="font-tenada">
         🌸 꽃집을 운영 중이신가요?
       </h1>
       <p className="text-gray-700 text-lg mb-8">

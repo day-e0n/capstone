@@ -14,6 +14,7 @@ import Signup from "./pages/Signup";
 import SignupCustomer from "./pages/SignupCustomer";
 import SignupFlorist from "./pages/SignupFlorist";
 import FlowerDictionary from "./pages/FlowerDictionary";
+import FlowerMBTI from "./pages/FlowerMBTI";
 
 function AppContent() {
   const location = useLocation(); // 현재 페이지의 경로 가져오기
@@ -35,6 +36,8 @@ function AppContent() {
         <Route path="/signupcustomer" element={<SignupCustomer />} />
         <Route path="/signupflorist" element={<SignupFlorist />} />
         <Route path="/dictionary" element={<FlowerDictionary/>} />
+        <Route path="/FlowerMBTI" element={<FlowerMBTI />} />
+        <Route path="/map" element={<Map />} />
       </Routes>
 
       {/* 홈 화면(`/`)에서만 GPT & 지도 표시 */}
